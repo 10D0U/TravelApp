@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TravelApp</string>
+    <string name="intro_main_text">Let\'s Enjoy\n The Wonderful World</string>
+    <string name="intro_sub_text">Discover new places throughout the world\n and gain fresh experiences</string>
+    <string name="intro_button_text">Get Started</string>
+</resources>
