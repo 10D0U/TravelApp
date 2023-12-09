@@ -1,6 +1,14 @@
 <resources>
     <string name="app_name">TravelApp</string>
     <string name="intro_main_text">Let\'s Enjoy\n The Wonderful World</string>
-    <string name="intro_sub_text">Discover new places throughout the world\n and gain fresh experiences</string>
+    <string name="intro_sub_text">Discover new places in the world\n and gain fresh experiences</string>
     <string name="intro_button_text">Get Started</string>
+    <string name="main_welcome_text">Welcome back</string>
+    <string name="main_user_name">Arkar</string>
+    <string name="main_description">Locate the perfect \ntravel destination</string>
+    <string name="main_search_hint">Search Location...</string>
+    <string name="main_popular">Popular</string>
+    <string name="main_see_all">See all</string>
+    <string name="main_category">Category</string>
+    <string name="main_home">Home</string>
 </resources>
