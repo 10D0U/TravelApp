@@ -11,4 +11,8 @@
     <string name="main_see_all">See all</string>
     <string name="main_category">Category</string>
     <string name="main_home">Home</string>
+    <string name="category">Category</string>
+    <string name="title">Title</string>
+    <string name="miami">Miami</string>
+    <string name="rating_text">0.0</string>
 </resources>

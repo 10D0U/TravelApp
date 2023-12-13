@@ -138,6 +138,7 @@
                     android:layout_weight="1"
                     android:text="@string/main_popular"
                     android:textSize="20sp"
+                    android:textColor="@color/black"
                     android:textStyle="bold"/>
 
                 <TextView
@@ -172,6 +173,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/main_category"
+                    android:textColor="@color/black"
                     android:textSize="20sp"
                     android:textStyle="bold"/>
 
