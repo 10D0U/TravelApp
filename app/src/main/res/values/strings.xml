@@ -15,4 +15,13 @@
     <string name="title">Title</string>
     <string name="miami">Miami</string>
     <string name="rating_text">0.0</string>
+    <string name="bungalow_text">Bungalow with a great view</string>
+    <string name="location">Location</string>
+    <string name="bed_number">2 beds</string>
+    <string name="guide">Guide</string>
+    <string name="wifi">Wifi</string>
+    <string name="description">Description</string>
+    <string name="place_description">This 2 bed /1 bath home boasts an enormous\nopen-living plan, accented by striking\narchitectural features and high-end finished.\nFeel inspired by open sight lines that"\nembrace the outdoors, crowned by stunning"\ncoffered ceilings. "</string>
+    <string name="book_now">Book Now</string>
+    <string name="price">$1,200</string>
 </resources>

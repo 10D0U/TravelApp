@@ -19,7 +19,7 @@ class PopularAdapter(
     private val formatter = DecimalFormat("###,###,###,###")
     inner class ViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
         val titleText: TextView = itemView.findViewById(R.id.title_text)
-        val locationText: TextView = itemView.findViewById(R.id.location_text)
+        val locationText: TextView = itemView.findViewById(R.id.popular_location)
         val scoreText: TextView = itemView.findViewById(R.id.score_text)
         val pic: ImageView = itemView.findViewById(R.id.popular_image)
     }

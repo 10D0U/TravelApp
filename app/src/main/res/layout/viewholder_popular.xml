@@ -54,7 +54,7 @@
             android:src="@drawable/marker" />
         
         <TextView
-            android:id="@+id/location_text"
+            android:id="@+id/popular_location"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -76,9 +76,9 @@
             android:textSize="12sp"
             android:layout_marginEnd="8dp"
             android:textColor="@color/black"
-            app:layout_constraintBottom_toBottomOf="@id/location_text"
+            app:layout_constraintBottom_toBottomOf="@id/popular_location"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@id/location_text" />
+            app:layout_constraintTop_toTopOf="@id/popular_location" />
 
         <ImageView
             android:layout_width="wrap_content"
