@@ -12,7 +12,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -94,6 +94,7 @@
                     android:src="@drawable/star2" />
 
                 <TextView
+                    android:id="@+id/detail_score"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="4.8"
@@ -128,6 +129,7 @@
                         android:src="@drawable/bed" />
                     
                     <TextView
+                        android:id="@+id/bed_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/bed_number"
@@ -209,6 +211,7 @@
                 android:layout_marginStart="32dp" />
 
             <TextView
+                android:id="@+id/description_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"

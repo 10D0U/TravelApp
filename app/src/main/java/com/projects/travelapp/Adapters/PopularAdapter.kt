@@ -1,5 +1,6 @@
 package com.projects.travelapp.Adapters
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,6 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.bitmap.CenterCrop
 import com.bumptech.glide.load.resource.bitmap.GranularRoundedCorners
+import com.projects.travelapp.Activities.DetailsActivity
 import com.projects.travelapp.Domains.PopularDomain
 import com.projects.travelapp.R
 import java.text.DecimalFormat
@@ -16,7 +18,6 @@ import java.text.DecimalFormat
 class PopularAdapter(
     private val items: ArrayList<PopularDomain>
 ): RecyclerView.Adapter<PopularAdapter.ViewHolder>() {
-    private val formatter = DecimalFormat("###,###,###,###")
     inner class ViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
         val titleText: TextView = itemView.findViewById(R.id.title_text)
         val locationText: TextView = itemView.findViewById(R.id.popular_location)
@@ -45,5 +46,11 @@ class PopularAdapter(
             .load(drawableResourceId)
             .transform(CenterCrop(), GranularRoundedCorners(40F, 40F, 40F, 40F))
             .into(holder.pic)
+
+        holder.itemView.setOnClickListener {
+            val intent = Intent(holder.itemView.context, DetailsActivity::class.java)
+            intent.putExtra("object", items[position])
+            holder.itemView.context.startActivity(intent)
+        }
     }
 }
